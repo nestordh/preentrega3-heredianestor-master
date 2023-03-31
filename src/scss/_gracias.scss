@@ -1,0 +1,33 @@
+.agradecimiento{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 70px;
+    
+    > h1{
+        display: flex;
+        font-size: 80px;
+        width: 500px;
+        color:rgb(26, 13, 212);
+        margin: 50px 0;
+        }
+    
+    > h2{
+        display:flex;
+        flex-direction:row;
+        width: 20px;
+        color:black;
+        align-items: center;
+        
+
+    }   
+    >.continuar{
+        width: 400px;
+        color: green;
+        
+    }
+    >.salir{
+        width: red;
+
+    }
+    }

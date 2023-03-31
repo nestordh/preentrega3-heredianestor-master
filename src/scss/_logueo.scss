@@ -1,0 +1,40 @@
+
+.logueo{
+    margin:50px auto;
+    width: 450px;
+    padding: 30px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    >h2{
+        margin:0, 0, 30px ;
+        padding:0;
+        font-size: 30px;
+        color: #4cc9f0;
+        text-align: center;
+}}
+
+.elemento label{
+    color: #fff;
+}
+
+ .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #fff;
+    margin-bottom: 30px;
+}
+.elemento input[type='submit']{
+    background-color: #2e2e2e;
+    border: none;
+    letter-spacing: 5px;
+    cursor:pointer;
+    padding:15px;
+    margin-top: 30px;
+}
+.elemento .boton{
+    width: 380px;
+    
+}

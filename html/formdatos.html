@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de registro</title>
+    <meta name="author" content="Heredia Nestor">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/img/icobilletera.png"/>
+</head>
+
+<body class="fondoapp">
+    
+    <nav class="navegador">
+        <i class="fa-solid fa-bars"></i>
+        <ul>
+            
+            <li><a href="ingresos.html">Ingresos</a>
+            </li>
+            <li><a href="gastos.html">Salida</a>
+            </li>
+            <li><a href="pendientes.html">Pendientes</a>
+            </li>
+            <li><a href="">Billeteras</a>
+                <ul>
+                    <li><a href="tarjetas.html">Tarjetas</a> </li>
+                    <li><a href="cuentas.html">Cuentas</a></li>
+                    <li><a href="prestamos.html">Prestamos</a></li>
+                    <li><a href="Inversiones.html">Inversiones</a></li>
+                </ul>
+            </li>
+            <li><a href="graficos.html">Graficos</a>
+            </li>
+            <li><a href="">Ayuda*</a>
+                <ul>
+                    <li><a href="/html/formdatos.html">Configuracion</a> </li>
+                    <li><a href="/html/formconsulta.html">Contacto</a></li>
+                    <li><a href="perfil.html">Mi perfil</a></li>
+                    <li><a href="listas.html">Listas pendientes</a></li>
+                    <li><a href="otrosII.html">Otros II</a>
+                </ul>
+            </li>
+            <li><a href="otros.html">Otros</a>
+            </li>
+            <li><a href="">Calculadoras</a>
+                <ul>
+                    <li><a href="calculadora.html">Calculadora</a>
+                    <li><a href="">Sumador</a> </li>
+                    <li><a href="">Cotizador</a></li>
+                    <li><a href="">Convertidor</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="../index.html">Salir</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="fdatos">
+    <form  action='url del servidor' target='_blank' autocomplete="off">
+           
+               <fieldset>
+            <legend>Datos Personales</legend>
+            <label for='idPersona'>D N I: </label><br />
+            <input type="text" id='idPersona' name='idPersona' readonly='true' value='100' /><br />
+
+            <input type="hidden" id='sistema' name='sistema' value='SAP'/>
+            
+            <label for='nombre'>Nombre: </label><br />
+            <input type="text" id='nombre' name='nombre' placeholder="Escribr el Nombre" required='true' /><br />
+
+            <label for='apellido'>Apellido: </label><br />
+            <input type="text" id='apellido' name='apellido' placeholder="Escribr el Apellido" required='true' /><br/>
+
+            <label for='password'>Password: </label><br/>
+        <input type="password" id='password' name='password' placeholder="Escribr el Password" required='true' /><br/>
+
+            <label for='Email'>Email: </label><br />
+            <input type="email" id='email' name='email' placeholder="Escribir el email" required='true' /><br />
+
+            <label for='edad'>Edad: </label><br />
+            <input type="number" id='edad' name='edad' placeholder="Escribr la Edad" required='true' /><br />
+
+            <label>Cuentas a cargar</label><br />
+            <input type='checkbox' id='banco' name='entidad' value='Bancas' />
+            <label for='entidad'>Banco</label><br />
+
+            <input type='checkbox' id='T.C.' name='entidad' value='tarjeta' />
+            <label for='entidad'>T. C.</label><br />
+            
+            <input type='checkbox' id='fintech' name='entidad' value='virtual' />
+            <label for='entidad'>virtual</label><br />
+            
+            <input type='checkbox' id='efectivo' name='entidad' value='efectivo' />
+            <label for='entidad'> efectivo</label><br />
+
+            <label for='cuentas'>Cantidad de cuentas</label><br />
+            <select id='Ctas' name='Ctas'>
+                
+                <option value='una'>1</option>
+                <option value='dos'>2</option>
+                <option value='tres'>3</option>
+                <option value='cuatro' selected=true>4 </option>
+                <option value='cinco'>5</option>
+                <option value='seis'>6</option>
+            </select><br /> <br />
+
+
+            <label for='comentarios'>Comentarios:</label><br />
+            <textarea id='comentario' name='comentario' rows='2' cols='30'>Este es mi comentario:
+        </textarea>
+
+            <br />
+            <input type='submit' value='Enviar' />
+            <input type='submit' formnovalidate='formnovalidate' value='Enviar sin validar' />
+            <input type='reset' value='Restablecer'/>
+        </fieldset>
+    </form>
+</main>
+
+
+    <footer>
+        <div class="pie">
+                <div  class="pie2">  
+                <h4> Acceso a favoritos</h4>
+                    <li><a href="https://www.google.com/"><i class="fa-brands fa-google"></i> Google</a></li>
+                    <li><a href="https://www.argentina.gob.ar/turismoydeportes"><i class="fa-solid fa-plane-departure"></i> Viajes</a></li>
+                    <li><a href="https://www.google.com.ar/maps/"><i class="fa-solid fa-map-location-dot"></i> Hogar</a></li>
+                    <li><a href=""><i class="fa-solid fa-map-location-dot"></i> Como llegar</a></li>
+                    <li><a class="pie4" href=""><i class="fa-solid fa-circle-info"></i> Acerca del desarrollador</a></li>
+                </div>
+                <p class="pie3">NeServ-App N&eacute;stor DH 2023 &copy; Derechos de autor reservados</p>
+        </div>
+    </footer>
+
+</body>    
+
+</html>

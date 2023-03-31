@@ -1,0 +1,16 @@
+.lugares{
+    overflow:hidden;
+    margin: 40px;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    justify-content: center;
+        & iframe{
+            left:0;
+            top:0;
+            height: 70%;
+            width: 70%;
+            position:absolute; 
+            margin: 70px;
+        }
+}

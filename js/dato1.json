@@ -1,0 +1,13 @@
+{ 
+    "id" : "Date.now()", 
+    "banco" : "Sudbank",
+    "tipoCtaAhor" : "true",
+    "nCtaAho" : 123456789, 
+    "tipoCtaCte" : "false",
+    "nCtaCte" : 741852963,
+    "ctaDol" : "false", 
+    "nCtaDol" : "",
+    "cbu" : 987654321,
+    "alias" : "alias", 
+    "alias2" :"alias2"
+}
